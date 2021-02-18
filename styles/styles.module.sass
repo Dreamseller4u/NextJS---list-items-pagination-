@@ -1,0 +1,79 @@
+
+.container 
+    min-height: 100vh
+    padding: 0 0.5rem
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    .main 
+        padding: 5rem 0
+        flex: 1
+        display: flex
+        flex-direction: column
+        align-items: center
+        max-width: 1200px
+        .post_wrapper 
+            display: flex
+            width: 100%
+            height: 200px
+            margin: 20px
+            border: 1px solid lightgray
+            border-radius: 20px
+            -webkit-box-shadow: 0px -6px 49px -19px rgba(34, 60, 80, 0.2)
+            -moz-box-shadow: 0px -6px 49px -19px rgba(34, 60, 80, 0.2)
+            box-shadow: 0px -6px 49px -19px rgba(34, 60, 80, 0.2)     
+            .post_wrapper__thumb
+                img 
+                    width: 300px
+                    height: 194px
+                    border-radius: 20px
+                    margin: 2px
+            .post_wrapper__content
+                margin-left: 60px
+                padding: 20px
+                overflow: hidden
+            .post_wrapper__tittle
+                margin-top: 0px
+                text-align: center
+            .post_wrapper__reed_more_btn
+                float: right
+                border: 1px solid lightgrey
+                border-radius: 5px
+                padding: 10px
+                &:hover
+                    transition-duration: 2s
+                    background: lightgrey
+                    font-weight: 500
+    .post_content_wrapper
+        -webkit-box-shadow: 0px -6px 49px -19px rgba(34, 60, 80, 0.2)
+        -moz-box-shadow: 0px -6px 49px -19px rgba(34, 60, 80, 0.2)
+        box-shadow: 0px -6px 49px -19px rgba(34, 60, 80, 0.2)   
+        hr
+            width: 80%
+        .post_content_wrapper__title
+            text-align: center
+        .post_content_wrapper__img
+            transition-duration: 2s
+            display: block
+            width: 50%
+            margin: 0px auto
+            &:hover
+                width: 70%
+                position: relative
+        .post_content_wrapper__summary
+            font-size: 20px
+            padding: 20px 100px
+        .post_content_wrapper__back_btn
+            display: block
+            text-align: center
+            margin-bottom: 20px
+            margin: 10px auto
+            border: 1px solid lightgray
+            width: 150px
+            padding: 8px
+            border-radius: 5px
+            &:hover
+                background: lightgrey
+                font-weight: 500
+                
